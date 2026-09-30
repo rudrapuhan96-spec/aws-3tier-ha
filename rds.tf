@@ -48,7 +48,7 @@ resource "aws_db_instance" "mysql" {
 
   multi_az = true
 
-  backup_retention_period = 7
+  backup_retention_period = 1
 
   backup_window = "18:00-19:00"
 
